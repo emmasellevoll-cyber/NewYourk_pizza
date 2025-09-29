@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria's Gotham Co. | New York–Style Pizza</title>
+  <meta name="description" content="Thin-crust, coal-fired, New York–style pizzas crafted with heritage dough and bold flavors. Call (212) 553-7800." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Maria's Gotham Co. Home">
+        <span class="brand-mark">MG</span>
+        <span class="brand-text">Maria's Gotham Co.</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="nav-menu">
+          <li><a href="#our-pizza">Our Pizza</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="call-us" href="tel:+12125537800">
+        <svg class="phone" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.26 11.3 11.3 0 003.6.57 1 1 0 011 1v3.7a1 1 0 01-1 1A17.8 17.8 0 012 6a1 1 0 011-1h3.7a1 1 0 011 1 11.3 11.3 0 00.57 3.6 1 1 0 01-.26 1l-2.4 2.2z"/>
+        </svg>
+        <span class="call-text"><strong>Call us today</strong> (212) 553-7800</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <picture>
+      <!-- Large, high-quality pizza image credit: Unsplash (remote) -->
+      <source srcset="https://aznypdpizza.com/wp-content/uploads/2023/05/nypd-cheese-pizza.jpg" media="(min-width: 1024px)">
+      <img src="https://aznypdpizza.com/wp-content/uploads/2023/05/nypd-cheese-pizza.jpg" alt="New York–style pizza fresh from the oven" loading="eager">
+    </picture>
+    <div class="hero-content container">
+      <h1>Delicious pizzas in the heart of New York</h1>
+      <p>From coal-fired crust to hand-crushed San Marzano tomatoes—every pizza is a love letter to the city that never sleeps.</p>
+      <div class="cta-row">
+        <a href="#menu" class="btn primary">Explore Menu</a>
+        <a href="tel:+12125537800" class="btn ghost">Order by Phone</a>
+      </div>
+      <ul class="hero-highlights">
+        <li>Heritage dough fermented 48 hours</li>
+        <li>Locally sourced mozzarella</li>
+        <li>Classic NYC slices & seasonal pizzas</li>
+      </ul>
+    </div>
+  </main>
+
+  <section id="our-pizza" class="section container">
+    <header class="section-header">
+      <h2>Our Pizza <i class="fa-solid fa-pizza-slice"></i></h2>
+      <p>We bake crisp, foldable, New York–style pizzas with blistered edges and generous toppings—perfect for a quick slice or a slow evening with friends.</p>
+    </header>
+    <div class="features">
+      <article class="card">
+        <h3>Coal-Fired Heat</h3>
+        <p>Our pizzas kiss a 700°F hearth for that unmistakable Gotham char and tender crumb.</p>
+      </article>
+      <article class="card">
+        <h3>Bold, Simple Ingredients</h3>
+        <p>San Marzano tomatoes, fresh basil, and cold-stretched dough—no shortcuts, just tradition.</p>
+      </article>
+      <article class="card">
+        <h3>Neighborhood Spirit</h3>
+        <p>Born in Midtown, shaped by the city. Grab a slice, chat a while, and watch the world go by.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="menu" class="section alt">
+    <div class="container">
+      <header class="section-header">
+        <h2>Menu <i class="fa-solid fa-bars"></i></h2>
+        <p>Classic slices, signature pizzas, and a few modern riffs. Gluten-free crust available.</p>
+      </header>
+
+      <div class="menu-grid">
+        <div class="menu-col">
+          <h3>Classic Pizzas</h3>
+          <ul class="menu-list">
+            <li><span>Margherita</span><span class="dots"></span><span class="price">$18</span></li>
+            <li><span>Pepperoni</span><span class="dots"></span><span class="price">$20</span></li>
+            <li><span>New Yorker (pepperoni & sausage)</span><span class="dots"></span><span class="price">$22</span></li>
+            <li><span>White Pizza (ricotta & garlic)</span><span class="dots"></span><span class="price">$21</span></li>
+          </ul>
+        </div>
+        <div class="menu-col">
+          <h3>Signature Pizzas</h3>
+          <ul class="menu-list">
+            <li><span>Gotham Fire (spicy soppressata & hot honey)</span><span class="dots"></span><span class="price">$24</span></li>
+            <li><span>Greenpoint (pesto, mozz, shaved parm)</span><span class="dots"></span><span class="price">$23</span></li>
+            <li><span>Little Italy (meatballs & fresh basil)</span><span class="dots"></span><span class="price">$24</span></li>
+            <li><span>SoHo Shroom (wild mushrooms & thyme)</span><span class="dots"></span><span class="price">$23</span></li>
+          </ul>
+        </div>
+        <div class="menu-col">
+          <h3>Slices & Sips</h3>
+          <ul class="menu-list">
+            <li><span>Cheese Slice</span><span class="dots"></span><span class="price">$3.50</span></li>
+            <li><span>Pepperoni Slice</span><span class="dots"></span><span class="price">$4.00</span></li>
+            <li><span>Homemade Lemonade</span><span class="dots"></span><span class="price">$3.00</span></li>
+            <li><span>Brooklyn Soda</span><span class="dots"></span><span class="price">$3.50</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="banner">
+        <p><strong>Lunch Special:</strong> Any slice + drink — <em>$6.50</em> (Mon–Fri, 11am–2pm)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <header class="section-header">
+      <h2>Contact <i class="fa-solid fa-address-card"></i></h2>
+      <p>Questions, large orders, or event catering? We’ve got you.</p>
+    </header>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Reach Us</h3>
+        <p><strong>Phone:</strong> <a href="tel:+12125537800">(212) 553-7800</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hello@gotham.co">hello@gotham.co</a></p>
+        <p><strong>Hours:</strong> Sun–Thu 11:00–22:00 · Fri–Sat 11:00–24:00</p>
+        <p><strong>Address:</strong> 152 W 52nd St, New York, NY 10019</p>
+      </div>
+
+      <form class="contact-form" onsubmit="return handleContact(event)">
+        <label>
+          Your Name
+          <input type="text" name="name" required placeholder="Jane Doe" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="jane@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required placeholder="Tell us what’s on your mind…"></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="form-note">This form is a demo — it won’t actually send an email.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="map" class="section alt">
+    <div class="container">
+      <header class="section-header">
+        <h2>Find Us in New York</h2>
+        <p>We’re steps from the buzz of Midtown — swing by for a slice after a show.</p>
+      </header>
+      <div class="map-embed">
+        <iframe
+          title="Map of Maria's Gotham Co."
+          src="https://www.google.com/maps?q=152%20W%2052nd%20St%2C%20New%20York%2C%20NY%2010019&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Maria's Gotham Co. · All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#our-pizza">Our Pizza</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
